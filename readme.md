@@ -9,7 +9,7 @@ A cron-job utility that takes a screenshot of your main screen every minute usin
 1.  Then you copy `no.nilsnh.daily-screens.plist` into `~/Library/LaunchAgents`. Jobs in this folder are run as the current logged in user.
 1.  Load the script with `launchctl load no.nilsnh.daily-screens.plist`.
 
-Use `launchctl *unload* no.nilsnh.daily-screens.plist` to disable the script.
+Call `launchctl unload no.nilsnh.daily-screens.plist` to disable the script.
 
 ## References
 
